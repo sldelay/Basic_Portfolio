@@ -8,8 +8,6 @@
 
     .topnav {
         background-color: #ffffff;
-        border: 6px;
-        text-align: center;
         height: 4em;
         display: flex;
         border-bottom: .10em solid #dddddd;
@@ -61,20 +59,6 @@
         border-radius: 100%;
         float: left;  
         margin: 0 1em 1em auto; 
-    }
-
-    .aboutme {
-        width: 60em;
-        margin-right: auto;
-        margin-left: auto;
-        background: #ffffff;
-        padding: 1.25em;
-        margin-top: 1.5em;
-
-    } 
-
-    .biocontent {
-    
     }
 
     .aboutme {
@@ -183,9 +167,6 @@
  
 /* portfolio page v v v */
 
-    div.row {
-        
-    } 
 
     div.column {
         float: left;
