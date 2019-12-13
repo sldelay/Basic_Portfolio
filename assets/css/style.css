@@ -202,6 +202,7 @@
         text-align: center;
         color: #ffffff;
         text-decoration: none;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
     .bottomcentered a:hover {
