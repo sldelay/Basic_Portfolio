@@ -24,9 +24,13 @@
         text-decoration: none;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         color: #777777;
-        padding: 1.5em 1em;
+        padding: 1.5em 0em 1.5em 2em;
         float: left;
         /* float: right; */
+    }
+
+    nav span a:hover {
+        color: #429793;
     }
 
 
@@ -82,8 +86,8 @@
 
 /* master style v v v */
 
-    body {
-        
+    html body {
+        height: 100%;
     }
 
     h1 {
@@ -92,15 +96,6 @@
         font-family: font-family: 'Georgia', Times, 'Times New Roman', serif;
     }
 
-    .content {
-        width: 60em;
-        margin-right: auto;
-        margin-left: auto;
-        background: #ffffff;
-        padding: 1.25em;
-        margin-top: 1.5em;
-        border: .10em solid #dddddd;
-    }
 
     hr {
         border-width: .1em;
@@ -134,7 +129,7 @@
     
     
     input[type=submit] {
-        background-color: #2AA981;
+        background-color: #4aaaa5;
         color: #ffffff;
         padding: 12px 20px;
         border: none;
@@ -144,7 +139,7 @@
     
     
     input[type=submit]:hover {
-        background-color:rgb(30, 136, 102);
+        background-color:#429793;
     }
     
     
@@ -167,6 +162,16 @@
  
 /* portfolio page v v v */
 
+    .content {
+        width: 60em;
+        margin-right: auto;
+        margin-left: auto;
+        background: #ffffff;
+        padding: 1.25em;
+        margin-top: 1.5em;
+        border: .10em solid #dddddd;
+    }
+
 
     div.column {
         float: left;
@@ -187,7 +192,7 @@
         clear: both;
     }
 
-    .bottomcentered {
+    .bottomcentered a{
         background-color: #4aaaa5;
         position: absolute;
         bottom: 0px;
@@ -195,9 +200,33 @@
         margin: 10px 0px;
         padding: 5px 0px;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .bottomcentered a:hover {
+        background-color: #429793;
     }
 
     
 
 /* portfolio page ^ ^ ^ */
+
+
+/* footer v v v */
+
+footer {
+    background-color: #666666;
+    height: 4em;
+    border-top: .5em solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#ffffff;
+    text-align: center;
+}
+
+
+
+/* footer ^ ^ ^ */
