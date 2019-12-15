@@ -7,10 +7,9 @@
 
 /* header/navbar v v v */
 
-    .topnav {
+    section.topnav {
         background-color: #ffffff;
         height: 4em;
-        display: flex;
         border-bottom: .10em solid #dddddd;
     }
 
@@ -34,7 +33,7 @@
     }
 
 
-    .topnav::after {
+    section.topnav::after {
         content: '';
         display:table;
         clear: both;
@@ -59,13 +58,13 @@
 
 /* about me page v v v */
 
-    .profile {
+    img.profile {
         border-radius: 100%;
         float: left;  
         margin: 0 1em 1em auto; 
     }
 
-    .aboutme {
+    div.aboutme {
         width: 60em;
         margin-right: auto;
         margin-left: auto;
@@ -76,7 +75,7 @@
 
     } 
 
-    .aboutme::after {
+    div.aboutme::after {
         content: '';
         display:table;
         clear: both;
@@ -143,7 +142,7 @@
     }
     
     
-    .cform {
+    div.cform {
         background-color: #ffffff;
         padding: 1.25em;
         width: 60em;
@@ -163,7 +162,7 @@
  
 /* portfolio page v v v */
 
-    .content {
+    div.content {
         width: 60em;
         margin-right: auto;
         margin-left: auto;
@@ -183,21 +182,21 @@
     }
 
 
-    .portimg {
+    img.portimg {
         height: 225px;
         width: 275px;  
     }
 
-    .content::after {
+    div.content::after {
         content: '';
         display:table;
         clear: both;
     }
 
-    .bottomcentered a{
+    div.bottomcentered a{
         background-color: #4aaaa5;
         position: absolute;
-        bottom: 0px;
+        bottom: 4px;
         width: 100%;
         margin: 10px 0px;
         padding: 5px 0px;
@@ -207,7 +206,7 @@
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
-    .bottomcentered a:hover {
+    div.bottomcentered a:hover {
         background-color: #429793;
     }
 
@@ -216,7 +215,7 @@
 /* portfolio page ^ ^ ^ */
 
 
-.invisible {
+div.invisible {
     visibility: hidden;
     height: 100px;
 }
@@ -224,7 +223,7 @@
 
 /* footer v v v */
 
-.wrapper {
+div.wrapper {
    position: relative;
    min-height: 100vh;
 }
