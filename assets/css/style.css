@@ -72,6 +72,7 @@
         padding: 1.25em;
         margin-top: 1.5em;
         border: .10em solid #dddddd;
+        margin-bottom: 2em;
 
     } 
 
@@ -217,7 +218,7 @@
 
 div.invisible {
     visibility: hidden;
-    height: 6.25em;
+    height: 10em;
 }
 
 
