@@ -75,8 +75,6 @@ In this assignment, I was asked to create a basic portfolio following the provid
 6. Dimensions:
    * The entire content and the main section content area is `960px` wide.
 
-   ![Recommended Dimensions](Images/Recommended-Dimensions.png)
-
 ### Bonus
 
 1. Make your pages more sophisticated by adding style to text links, to image links, and to buttons for when a user hovers their cursor over them. A CSS hover tutorial can be found [here](http://www.codeitpretty.com/2013/06/how-to-use-css-hover-effects.html).
