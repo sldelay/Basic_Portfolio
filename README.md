@@ -1,37 +1,9 @@
 # Basic_Portfolio
 UNH Bootcamp Week 1 Homework
 
-# Recommended Assignment - That Portfolio Though
-
 ## Overview
 
-In this assignment, you'll build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
-
-### Before You Begin
-
-* Welcome to your first opportunity as a front-end web designer. You will be advocating for your most important client—yourself! By making a portfolio, you'll take your first step toward building your web development brand.
-
-* This will be one of your harder assignments, if only because you're just getting your feet wet in web design. Trust us, though; it will get easier. Invest your time in this assignment, and it will pay dividends!
-
-### Commits
-
-Having an active and healthy commit history on GitHub is important for your future job search. It is also extremely important for making sure your work is saved in your repository. If something breaks, committing often ensures you are able to go back to a working version of your code.
-
-* Committing often is a signal to employers that you are actively working on your code and learning.
-
-  * We use the mantra “commit early and often.”  This means that when you write code that works, add it and commit it!
-
-  * Numerous commits allow you to see how your app is progressing and give you a point to revert to if anything goes wrong.
-
-* Be clear and descriptive in your commit messaging.
-
-  * When writing a commit message, avoid vague messages like "fixed." Be descriptive so that you and anyone else looking at your repository knows what happened with each commit.
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-### Submission on BCS
-
-* Please submit the link to the Github Repository!
+In this assignment, I was asked to create a basic portfolio following the provided style guides and html structure.
 
 ### Instructions
 
@@ -51,15 +23,9 @@ Having an active and healthy commit history on GitHub is important for your futu
 
    * Make sure to `git add .` and `git commit -m "initial site files"`. Then type `git push origin master` to push your changes to your GitHub repo.
 
-5. Reference these screenshots for your site:
+5. Reference the provided screen shots.
 
-   ![Portfolio About](Images/portfolio-about-me.png)
-
-   ![Portfolio Contact](Images/portfolio-contact.png)
-
-   ![Portfolio Gallery](Images/portfolio-gallery.png)
-
-   * **IMPORTANT** Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
+ * **IMPORTANT** Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
 
 6. When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
 
@@ -80,7 +46,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 9. Push your changes to Github.
 
-### Additional Specifcations
+### Style Guide
 
 1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
    * Teal color (used for headings and backgrounds): `#4aaaa5`
@@ -122,28 +88,12 @@ Having an active and healthy commit history on GitHub is important for your futu
    * Give the Footer the following CSS:
    * border-top: 8px solid #4aaaa5;
 
-### Helpful Hints
+## Project Approach
 
-* For help with Git and GitHub, be sure to consult the GitHub Supplemental Guide sent to you in class.
+For this project, I first laid out my html structure for all three pages and content.
 
-* Don't forget to look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
+I then added styling by linking in the style.css file as instructed.
 
-* This will be a tough assignment, but towards the end of the course, you'll look back to this exercise and realize just how much you've grown as a developer. Stay positive! You've got this!
+## Project Recap
 
-### Reminder: Submission on BCS
-
-* Please submit the link to the Github Repository!
-
-- - -
-
-### Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
-
-- - -
-
-### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
+In the end I got my website to look almost identical to the style specs provided. I am not sure if my approach was completely correct, but I learned a lot about CSS that I didn't know before! 
