@@ -37,7 +37,7 @@
     }
 
     nav span a {
-        margin: auto 0em auto 2em;
+        margin: auto 0em auto 1em;
         text-decoration: none;
         padding: .5em .75em;
         color: #777777;
@@ -46,6 +46,12 @@
 
     nav span a:hover {
         color: #429793;
+    }
+
+    a.vertical {
+        border-right: .08em solid #777777;
+        height: .5em;
+        padding-right: 2em;
     }
 
 
